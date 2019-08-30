@@ -24,8 +24,7 @@ function ENT:Initialize()
 	self:SetNWString("NoStealCode_PLS", "None") -- uses this name as it can be seen on clientside code, lol.
 	self.Combine = false
 	self.Rebel = false
-	
-	
+		
 if (not timer.Exists(self.EntityID)) then
     print("Checkpoint-" .. self:EntIndex())
 
@@ -110,7 +109,6 @@ end
 	end
 end
  
-
 --[[
  function ENT:Use( activator, caller )
  end
